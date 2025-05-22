@@ -30,7 +30,7 @@
     And the one more thing is,if you really want to disrupt the black hat hackers sites or data center then make sure that you will use bot net for running GreeDoS 
     perfectly in real cyber world.
     i hope you have understand perfectly.
-    Best of luck and good bye for now. 
+    Best of luck and good bye for now... 
    </pre>
 
 
