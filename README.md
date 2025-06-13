@@ -6,7 +6,7 @@
   <h1>GreeDoS_V2</h1>
    
   <p>
-   A Cybersecurity Red Team tool based on DDoS
+   ~ A Cybersecurity Red Team tool based on DDoS ~
   </p>
 
 
