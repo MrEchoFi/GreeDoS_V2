@@ -10,7 +10,7 @@
   </p>
 
 
-  📫 How to reach me  **[Website](https://echo-fi-portfolio-node-js.vercel.app/)** ,  **http://mrechofi.github.io/Tanjib_portfolio_website/** & **tanjibisham777@gmail.com & tanjibisham888@gmail.com** | **https://369emon.github.io/Emon-s_portfolio/**
+  📫 How to reach me  **[Website](https://echo-fi-portfolio-node-js.vercel.app/)** ,  **http://mrechofi.github.io/Tanjib_portfolio_website/** & **tanjibisham777@gmail.com & tanjibisham888@gmail.com** | **https://369emon.github.io/Emon-s_portfolio/**.
   </div>
 ## See the video & listen,
   <div align="center">
