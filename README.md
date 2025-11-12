@@ -46,6 +46,10 @@
 - **Optimize Network Performance:** Identify bottlenecks and failure points under high traffic loads, enabling proactive network tuning.
 - **Automated Testing:** Cybersecurity professionals can automate DDoS simulation tests within security testing suites, improving red teaming efficiency.
 - **Rapid Deployment:** Network engineers can deploy the tool across environments for stress testing network resilience without complex setup.
+# Installaton Part:
+          pip install greedos
+### Note: 
+<p> when you will install this tool via 'pip' then if it shows to install this in virtual environment then set the virtual env then install the tool via pip. </p>  
 
 # Installation Process via 'git' :
     git clone <paste_the_github_link>
